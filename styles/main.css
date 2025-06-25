@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    
+}
+/* تخصيص اعلى root = html */
+:root{
+    /* 62.5 = 16px */
+    font-size: 62.5%;
+
+    /* color */
+    --primary :red;
+    --secondary :black;
+    --text-color :#lc3981E ;
+
+    /* size */
+    --text-sm :  14px ;
+    --text-base :  16px ;
+    --text-lg : 18px  ;
+    --text-xl : 20px  ;
+    --text-xxl : 48px ;
+
+    background-color: aqua;
+}
+.contener{
+    padding: 0 10px;
+    max-width: ;
+}
+@media (){
+
+}
